@@ -1,6 +1,6 @@
 === Contact Form 7 - Simple Hidden Field ===
 Contributors: Hube2
-Tags: contact form 7 simeple hidden field
+Tags: contact form 7, simeple, dynamic, hidden field
 Requires at least: 4.0
 Tested up to: 4.2
 Stable tag: 1.1.1
@@ -8,7 +8,7 @@ Donate link:
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add simeple hidden fields in Contact Form 7
+Add simeple hidden fields in Contact Form 7. Requires [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 
 
 == Description ==
@@ -17,11 +17,11 @@ Create simple hidden fields and dynamically generated hidden fields with Conact 
 
 Simple Hidden fields are just that, simple hidden fields
 
-*** New Dynamic Hidden Fields ***
+***New Dynamic Hidden Fields***
 
-How to create dynamic hidden fields
+*How to create dynamic hidden fields*
 
-1) Create a filter to be called from your CF7 Dynamic Select Field.
+1) Create a filter to be called from your CF7 Dynamic Hidden Field.
 
 Example Filter:
 
@@ -32,7 +32,7 @@ Example Filter:
 add_filter('wpcf7_dynamic_hidden_example1', 
              'cf7_dynamic_hidden_do_example1', 10, 2);`
 
-2) Enter the filter name and any arguments into the Filter Field when adding a Dynamic Hidden Field.
+2) Enter the filter name and any arguments into the Filter field when adding a Dynamic Hidden Field.
 For example, if we need to supply a post_id so that the filter can get the post title
 filter value entered would look something like this:
 
