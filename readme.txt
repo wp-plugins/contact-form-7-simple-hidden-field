@@ -8,12 +8,12 @@ Donate link:
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add simeple hidden fields in Contact Form 7. Requires [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
+Add simeple hidden fields in Contact Form 7
 
 
 == Description ==
 
-Create simple hidden fields and dynamically generated hidden fields with Conact Form 7
+Create simple hidden fields and dynamically generated hidden fields with Conact Form 7. Requires [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 
 Simple Hidden fields are just that, simple hidden fields
 
